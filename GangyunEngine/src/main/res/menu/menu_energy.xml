@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gychen.myapplication.EngineActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_custom"
+        android:orderInCategory="100"
+        android:title="@string/action_custom"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_makeup"
+        android:orderInCategory="100"
+        android:title="@string/action_makeup"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_beautysnap"
+        android:orderInCategory="100"
+        android:title="@string/action_beautysnap"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_makeupos"
+        android:orderInCategory="100"
+        android:title="@string/action_makeupos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_chuanyin"
+        android:orderInCategory="100"
+        android:title="@string/action_chuanyin"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gy_engine_id_makeup" type="id"></item><!-- 美妆 -->
+    <item name="gy_engine_id_beauty" type="id"></item><!-- 美颜 -->
+    <item name="gy_engine_id_star" type="id"></item><!-- 明星妆 -->
+    <item name="gy_engine_id_edit" type="id"></item><!-- 编辑 -->
+    <item name="gy_engine_id_decorate" type="id"></item><!-- 造型 -->
+    <item name="gy_engine_id_makeuphome" type="id"></item><!-- 美人妆首页 -->
+    <item name="gy_engine_id_beautysnaphome" type="id"></item><!-- BeautySnap首页 -->
+    <item name="gy_engine_id_beautysnap_camera" type="id"></item><!-- beautysnap相机界面 -->
+    <item name="gy_engine_id_makeupos_camera" type="id"></item><!-- 秀美妆录像界面 -->
+    <item name="gy_engine_id_custom" type="id"></item>
+</resources>

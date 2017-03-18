@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="深圳港云科技 启动器"
+                android:textSize="20sp" />
+            <!-- 包名 -->
+            <AutoCompleteTextView
+                android:id="@+id/engine_packagename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="选择或者输入包名"
+                android:completionThreshold="1"
+                android:text="com.gangyun.makeup"
+                android:entries="@array/package_name_values"/>
+            <!-- 类名 -->
+            <AutoCompleteTextView
+                android:id="@+id/engine_classname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="选择或者输入跳转类"
+                android:completionThreshold="1"
+                android:text="com.gangyun.makeup.gallery3d.makeup.MakeUpActivity"
+                android:entries="@array/activity_name_values"/>
+            <CheckBox
+                android:id="@+id/engine_select_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择图片" />
+
+            <CheckBox
+                android:id="@+id/engine_from_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="标识为第三方启动(come_from_other=true)" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <AutoCompleteTextView
+                    android:id="@+id/engine_key1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="key1"/>
+                <AutoCompleteTextView
+                    android:id="@+id/engine_value1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="value1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <AutoCompleteTextView
+                    android:id="@+id/engine_key2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="key2"/>
+                <AutoCompleteTextView
+                    android:id="@+id/engine_value2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="value2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <AutoCompleteTextView
+                    android:id="@+id/engine_key3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="key3"/>
+                <AutoCompleteTextView
+                    android:id="@+id/engine_value3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="value3"/>
+            </LinearLayout>
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/buttom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            </org.apmem.tools.layouts.FlowLayout>
+            <ImageView
+                android:id="@+id/engine_resultimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
