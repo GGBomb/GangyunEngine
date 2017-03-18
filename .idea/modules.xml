@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GangyunEngine.iml" filepath="$PROJECT_DIR$/GangyunEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GangyunEngine/GangyunEngine-GangyunEngine.iml" filepath="$PROJECT_DIR$/GangyunEngine/GangyunEngine-GangyunEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/layouts/layouts.iml" filepath="$PROJECT_DIR$/layouts/layouts.iml" />
+    </modules>
+  </component>
+</project>
