@@ -1,0 +1,13 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion 22
+  buildToolsVersion '22.0.1'
+
+  defaultConfig {
+    versionName "1.0.0"
+    versionCode 1
+  }
+}
+
+apply from: 'maven_push.gradle'
